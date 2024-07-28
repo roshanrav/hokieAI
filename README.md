@@ -10,7 +10,7 @@
 
 🔹 𝙏𝙪𝙩𝙤𝙧𝙞𝙣𝙜 (𝙐𝙣𝙙𝙚𝙧 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙢𝙚𝙣𝙩): Future capabilities will include connecting with tutors for specific subjects to boost your learning experience.
 
-**𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝘇𝗲𝗱 𝗜𝗻𝘁𝗲𝗿𝗮𝗰𝘁𝗶𝗼𝗻**: 
+#𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝘇𝗲𝗱 𝗜𝗻𝘁𝗲𝗿𝗮𝗰𝘁𝗶𝗼𝗻: 
 HokieAI allows users to personalize their profiles with details such as name, advisor’s information, academic standing, and major. This feature not only enhances the relevance of communications but also includes the innovative ability to generate custom profile pictures based on user prompts, reflecting VT-related themes.
 
 This personalized approach is invaluable for advisors as well, providing clear insights into what students know and where they need help, streamlining communication, and improving the advisory process.
