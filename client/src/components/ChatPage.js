@@ -87,17 +87,6 @@ const ChatPage = () => {
       };
     }
   }, [apiData, username]);
-  // const fetchUserData = async () => {
-  //   try {
-  //     const response = await fetch('http://localhost:8080/api/user'); // Adjust the API endpoint as needed
-  //     const data = await response.json();
-  //     setUserName(data.username);
-  //     setUserImage(data.profilePicture || user);
-  //   } catch (error) {
-  //     console.error('Failed to fetch user data:', error);
-  //   }
-  // };
-
   const handleHomeClick = () => {
     showLoading();
     setTimeout(() => {
@@ -160,7 +149,7 @@ const ChatPage = () => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer sk-proj-Ujro97vuIFi0BvhkpHnET3BlbkFJ2eiNRzcGGHMHfman9iiE'
+        'Authorization': 'Bearer API_KEY_HERE'
       },
       body: JSON.stringify({
         model: "gpt-3.5-turbo",
@@ -181,7 +170,7 @@ const ChatPage = () => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer sk-proj-ClyheMv50nSvIf1Q3g84T3BlbkFJoZ6isdGyOQEQcCm8GlzN'
+        'Authorization': 'Bearer API_KEY_HERE'
       },
       body: JSON.stringify({
         model: "gpt-3.5-turbo",
@@ -352,42 +341,6 @@ const ChatPage = () => {
             document.querySelector(`.${styles.chatContainer}`).scrollTop = document.querySelector(`.${styles.chatContainer}`).scrollHeight;
           }, 100);
           document.getElementById(styles.buttonContainer).remove();
-      
-
-    //   yesButton.addEventListener("click", () => {
-    //     setMessages((prevMessages) => [
-    //       ...prevMessages,
-    //       { role: 'user', content: "Yes" },
-    //       { role: 'assistant', content: "Would you like to email the advisor or continue the conversation?", id: uniqueId }
-    //     ]);
-    //     setMessageHistory((prevHistory) => [
-    //       ...prevHistory,
-    //       { role: 'user', content: "Yes" }
-    //     ]);
-    //     const responseDiv = document.createElement("div");
-    //     responseDiv.id = styles.botMessage; // Correct class name
-
-    //     const emailButton = document.createElement("button");
-    //     emailButton.className = styles.responseButton; // Correct class name
-    //     emailButton.textContent = "Email Advisor";
-    //     const askMindcraftButton = document.createElement("button");
-    //     askMindcraftButton.className = styles.responseButton; // Correct class name
-    //     askMindcraftButton.textContent = "Continue Chat";
-    //     document.getElementById(styles.buttonContainer).remove();
-
-
-    //     responseDiv.appendChild(document.createElement("br"));
-    //     responseDiv.appendChild(emailButton);
-    //     responseDiv.appendChild(askMindcraftButton);
-
-    //     document.querySelector(`.${styles.chatContainer}`).appendChild(responseDiv);
-    //     // const lastMessageElement = document.querySelector(`.${styles.chatContainer} .${styles.message}[id='${uniqueId}']`);
-    //     // if (lastMessageElement) {
-    //     //   lastMessageElement.parentNode.appendChild(responseDiv);
-    //     // }
-    //     document.querySelector(`.${styles.chatContainer}`).scrollTop = document.querySelector(`.${styles.chatContainer}`).scrollHeight;
-    //     document.getElementById(styles.buttonContainer).remove();
-
 
         emailButton.addEventListener("click", async () => {
           setMessages((prevMessages) => [

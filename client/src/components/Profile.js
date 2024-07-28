@@ -75,49 +75,6 @@ export default function Profile() {
     setUploadDialogOpen(false);
   };
 
-  // const handleGeneratePicture = async () => {
-  //   // try {
-  //   //   const response = await axios.post('https://api.openai.com/v1/dalle/generate', {
-  //   //     prompt,
-  //   //     n: 1,
-  //   //     size: "1024x1024"
-  //   //   }, {
-  //   //     headers: {
-  //   //       'Authorization': `Bearer sk-proj-ClyheMv50nSvIf1Q3g84T3BlbkFJoZ6isdGyOQEQcCm8GlzN`
-  //   //     }
-  //   //   });
-  // //   try{
-  // //     const response = await fetch('https://api.openai.com/v1/images/generations', {
-  // //     method: 'POST',
-  // //     headers: {
-  // //       'Content-Type': 'application/json',
-  // //       'Authorization': 'Bearer sk-proj-ClyheMv50nSvIf1Q3g84T3BlbkFJoZ6isdGyOQEQcCm8GlzN'
-  // //     },
-  // //     body: JSON.stringify({
-  // //       model: "dall-e-3",
-  // //       prompt: prompt,
-  // //     })
-  // //   });
-  // //   const data = await response.json();
-  // //   if (data.choices && data.choices.length > 0) {
-  // //     console.log("working")
-  // //     const replyText = data.choices[0].message.content;
-  // //     return replyText;
-  // //   } else {
-  // //     return "Failed to get a response";
-  // //   }
-  // // }
-
-
-  // //     const imageUrl = response.data.data[0].url;
-  // //     setFile(imageUrl);
-  // //     toast.success("Image generated successfully!");
-  //    catch (error) {
-  //     console.error('Error generating picture:', error);
-  //     toast.error("Error generating picture");
-  //   }
-  //   setGenerateDialogOpen(false);
-  // };
   const handleGeneratePicture = async () => {
     setLoading(true);
     try {
@@ -126,7 +83,7 @@ export default function Profile() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer sk-proj-ClyheMv50nSvIf1Q3g84T3BlbkFJoZ6isdGyOQEQcCm8GlzN'
+          'Authorization': 'Bearer API_KEY_HERE'
         },
         body: JSON.stringify({
           prompt: prompt,
