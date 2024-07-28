@@ -1,0 +1,265 @@
+/* .glass{
+    @apply h-5/6 w-5/6;
+} */
+
+.profile_img{
+    @apply w-40 cursor-pointer;
+}
+
+/* .textbox{
+    @apply w-3/4;
+} */
+.profile_img {
+    border: 2px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+/* .glass {
+    @apply h-5/6 w-full mx-auto p-8 rounded-lg shadow-lg bg-white bg-opacity-10;
+    height: 90vh; 
+    width: 200px;
+    overflow-y: auto; 
+} */
+.glass {
+    height: 96%; /* Fixed height */
+    width: 98%; /* Fixed width */
+    max-width: 1200px; /* Maximum width to prevent it from getting too large */
+    padding: 2rem; /* Add some padding for better spacing */
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.058); /* Semi-transparent background */
+    border-radius: 35px; /* Rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for better look */
+    overflow-y: auto; /* Enable scrolling if content overflows */
+}
+
+.profile_img {
+    width: 175px; /* Fixed width */
+    height: 175px; /* Fixed height */
+    cursor: pointer;
+    border-radius: 30%;
+    border: 2px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* .textbox {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background: #f9fafb;
+    border: 1px solid #d1d5db;
+    margin-bottom: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.textbox:focus {
+    border-color: #6366f1; /* Change border color on focus */
+
+.btn {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background: #4f46e5;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background: #4338ca; /* Darker background on hover */
+}
+.textbox {
+    height:60px;
+    width: 400px; /* Full width of the parent container */
+    max-width: 600px; /* Maximum width to keep it from getting too large */
+    padding: 0.75rem; /* Adjust padding to make it less chunky */
+    border-radius: 0.5rem;
+    background: #f9fafb;
+    border: 1px solid #d1d5db;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+
+.textbox:focus {
+    border-color: #6366f1; /* Change border color on focus */
+}
+.profile_img{
+    display: flex;
+    flex-direction: row;
+    margin-left: 165px;
+    margin-bottom: 27px;
+}
+.profile_img:hover{
+    transform: scale(1.05); 
+}
+
+.linkbtn {
+    display: flex;
+    width: 30%;
+    justify-content: top;
+    background-color:  #4338ca;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    max-width: 600px;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    transition: background-color 0.2s;
+    margin-left: 101px;
+    position: relative; /* Needed for positioning the image */
+    overflow: hidden; /* Hide the overflow of the image */
+}
+
+.linkbtn i {
+    margin-right: 0.5rem;
+}
+
+.linkbtn img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20%; /* Show only half of the image */
+    height: auto;
+    opacity: 0.4;
+}
+.linkbtn i {
+    margin-left: 0.5rem;
+}
+
+.linkbtn:hover {
+    background-color: #6366f1; /* Slightly lighter burnt orange on hover */
+}
+.linkbtn:hover img {
+    animation: shake 0.8s; /* Apply shake animation */
+}
+
+
+
+/* Keyframes for shake animation */
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.title {
+    margin-top: 5px; /* Reduce the margin */
+}
+/* .loaderContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+  }
+  
+.dialog {
+    justify-content: flex;
+    max-width: 90%;
+    padding: 20px;
+    border-radius: 30%;
+    background-color: #630031;
+    opacity: 0.95;
+  }
+  
+.dialogButton {
+    margin: 10px 0;
+    width: 100%;
+    background-color: #E5751F;
+    border: #4338ca;
+  }
+  
+.dialogInput {
+    margin: 10px 0px;
+  } */
+
+/* .loaderContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+  } */
+  
+ .dialogForProfile {
+    display: flex !important;
+    flex-direction: column !important;
+    max-width: 750px !important;
+    padding: 20px !important;
+    border-radius: 50px !important;
+    background-color: #630031 !important;
+    opacity: 0.95 !important;
+  }
+.dialogButtonForProfile {
+    margin: 10px 0 !important;
+    width: 100% !important;
+    background-color: #E5751F !important;
+    border: #4338ca !important;
+    margin: 20px !important;
+    transition: background-color 0.2s, transform 0.2s !important;
+    color: #FFFFFF !important;
+  }
+   .dialogInput {
+    margin: 10px 0 !important;
+    width: 400px !important;
+    border-color: #E5751F !important; 
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+    background: none !important;/* Change border color on focus */
+  box-shadow: 0 0 5px rgba(229, 117, 31, 0.5) !important; /* Add a shadow on focus */
+  }
+  .dialogInput::placeholder {
+    color: #E5751F !important; /* Change this to your desired placeholder color */
+  }
+  
+  .dialogInput:focus {
+    outline: none !important;
+    border-color: #E5751F!important; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(229, 117, 31, 0.5)!important; /* Add a shadow on focus */
+  }
+   .dialogButtonsContainer {
+    display: flex !important;
+    justify-content: space-around !important;
+  }
+  .dialogButtonForProfile:hover {
+    background-color: #d05a1b !important;
+    transform: scale(1.05) !important; /* Slightly increase the size on hover */
+  }
+   .dialogButtonForProfile img {
+    width: 20px !important;
+    height: 20px !important;
+    margin-right: 8px !important;
+  }
+  /* .ProfilePage .DialogActions{
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    padding: 20px;
+    border-radius: 30%;
+    background-color: #630031;
+    opacity: 0.95;
+} */

@@ -1,0 +1,54 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('background_vt.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #FFF;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #FFF;
+}
+
+p {
+    color: #F5F5F5;
+    font-size: 1.2em;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    background-color: #630031;
+
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px;
+    width: 80%;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #822433;
+}
+
+.logo {
+    margin-bottom: 30px;
+}
