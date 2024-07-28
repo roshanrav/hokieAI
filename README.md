@@ -1,6 +1,6 @@
 # HokieAI APP
 
-𝗛𝗼𝗸𝗶𝗲𝗔𝗜 𝗖𝗵𝗮𝘁𝗯𝗼𝘁 offers tailored guidance across four key categories:
+**𝗛𝗼𝗸𝗶𝗲𝗔𝗜 𝗖𝗵𝗮𝘁𝗯𝗼𝘁** offers tailored guidance across four key categories:
 
 🔹 𝙎𝙤𝙘𝙞𝙖𝙡 𝙇𝙞𝙛𝙚: Stay informed about campus events, clubs, and social gatherings, making it easier to engage with campus life.
 
