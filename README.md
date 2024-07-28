@@ -1,4 +1,4 @@
-***HokieAI APP***
+# HokieAI APP
 
 𝗛𝗼𝗸𝗶𝗲𝗔𝗜 𝗖𝗵𝗮𝘁𝗯𝗼𝘁 offers tailored guidance across four key categories:
 
